@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+        body{
+            background-color: rgb(245, 226, 233);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #container{
+            width: 1100px;
+            margin:0px auto;
+
+
+        }
+
+        header{
+            background-color: rgb(207, 207, 207);
+            height: 100px;
+            width: 100%;
+            margin: 0px;
+            text-align: center;
+            line-height: 100px;
+            color:mediumvioletred;
+            border-radius: 10px;
+  
+        }
+
+        nav{
+            background-color:rgb(255, 255, 255);
+            height: 50px;
+            
+        }
+
+        nav ul li{
+            float:left;
+            list-style: none;
+            margin: 10px;
+            line-height: 30px;
+
+
+        }
+
+        .clearfix{
+            clear:both;
+        }
+
+        #content{
+            float: left;
+            width: 80%;
+            background-color: rgb(228, 225, 241);
+            min-height: 500px;
+
+        }
+
+        .article{
+            color:cadetblue;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            
+        }
+        aside{
+            float:left;
+            width: 20%;
+            background-color: beige;
+            min-height: 500px;
+
+        }
+
+        footer{
+            background-color: rgb(250, 250, 250);
+            text-align: center;
+            height: 50px;
+            line-height: 50px;
+        }
