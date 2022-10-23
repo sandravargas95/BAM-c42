@@ -1,0 +1,53 @@
+body {
+    background-color: beige;
+}
+
+.flex-container{
+    border: 1px solid rgb(31, 31, 31);
+    background: #ccc;
+    padding: 20px;
+    display: flex;
+   justify-content:center;
+
+}
+
+.caja{
+    border: 1px solid rgb(187, 184, 184);
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    margin: 5px;
+    
+}
+
+.c1 {
+    background: lightpink;
+    order: 2;
+    flex-grow: 1;
+
+}
+
+.c2 {
+    background: pink;
+    order:3;
+    flex-grow: 1;
+}
+
+.c3{
+    background: lavender;
+    order:1;
+    flex-grow:5;
+   
+}
+
+.c4{
+    background: rgb(214, 190, 214);
+    order:4;
+    flex-grow: 2;
+}
+
