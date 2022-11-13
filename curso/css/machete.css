@@ -62,7 +62,7 @@
         aside{
             float:left;
             width: 20%;
-            background-color: beige;
+            background-color: rgba(238, 227, 227, 0.829);
             min-height: 500px;
 
         }
