@@ -4,8 +4,15 @@ body{
     font-family: "Montserrat", sans-serif
 }
 
+
 #menu a {
     font-size:  18px;
     font-weight: bold ;
 }
 
+
+@media (max-width:450px){
+    html{
+        font-size:50%
+    }
+}
